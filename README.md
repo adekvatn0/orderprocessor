@@ -3,6 +3,12 @@ demonstrates inheritance of JSON entities, ORM entities and spring-data reposito
 
 # Quick start
 ```bash
+#initialize database
+sudo -u postgres psql
+create user processor with password 'processor';
+grant all privileges on database processor to processor;
+\q
+
 cd /path/to/project/
 #start rabbit container
 docker-compose up -d
