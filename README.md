@@ -5,6 +5,6 @@ demonstrates inheritance of JSON entities, ORM entities and spring-data reposito
 ```bash
 cd /path/to/project/
 #start rabbit container
-docker-compose up
+docker-compose up -d
 #start app
 mvn spring-boot:run
