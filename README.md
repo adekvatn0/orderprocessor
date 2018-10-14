@@ -5,6 +5,7 @@ demonstrates inheritance of JSON entities, ORM entities and spring-data reposito
 ```bash
 #initialize database
 sudo -u postgres psql
+create database processor;
 create user processor with password 'processor';
 grant all privileges on database processor to processor;
 \q
